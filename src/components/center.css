@@ -4,50 +4,50 @@
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	 background-image:url('../img.jpg');
-	 background-repeat: no-repeat;
-	 background-position: center center;
-	 background-attachment: fixed;
-	 background-size: contain;
-	 opacity: 0.8;
-	 overflow: scroll;
-	 scrollbar-width: none;
+	background-image: url('../img.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: contain;
+	opacity: 0.8;
+	overflow: scroll;
+	scrollbar-width: none;
+}
 
-	h1{
-		font-family: cursive;
-		font-size: 50px;
-		font-weight: bold;
-		color: darkblue;
+.main h1 {
+	font-family: cursive;
+	font-size: 50px;
+	font-weight: bold;
+	color: darkblue;
+}
 
-	}
-	input {
-		padding: 10px;
-		width:300px;
-		border: none;
-		outline: none;
-		background-color: coral;
-	}
-	input::placeholder {
-		color: skyblue;
-		font-size: 20px;
-	}
-	button {
-		margin-top: 30px;
-		padding: 15px;
-		width: 100px;
-		background-color: gold;
-		font-family: cursive;
-		border: none;
-		outline: none;
-		cursor: pointer;
-	}
+.main input {
+	padding: 10px;
+	width: 300px;
+	border: none;
+	outline: none;
+	background-color: coral;
+}
 
-	span {
-		font-size: 13px;
-		font-weight: bold;
-		font-family: cursive;
-		color: greenyellow;
+.main input::placeholder {
+	color: skyblue;
+	font-size: 20px;
+}
 
-	}
+.main button {
+	margin-top: 30px;
+	padding: 15px;
+	width: 100px;
+	background-color: gold;
+	font-family: cursive;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
 
+.main span {
+	font-size: 13px;
+	font-weight: bold;
+	font-family: cursive;
+	color: greenyellow;
 }
